@@ -20,7 +20,7 @@
    * colors
    */
 
-  --spanish-gray: hsl(0, 0%, 60%);
+   --spanish-gray: hsl(0, 0%, 60%);
   --sonic-silver: hsl(0, 0%, 47%);
   --eerie-black: hsl(0, 0%, 13%);
   --salmon-pink: hsl(353, 100%, 78%);
@@ -31,7 +31,6 @@
   --cultured: hsl(0, 0%, 93%);
   --white: hsl(0, 100%, 100%);
   --onyx: hsl(0, 0%, 27%);
-
   /**
    * typography
    */
@@ -130,7 +129,7 @@ body::-webkit-scrollbar-thumb {
   border-radius: 10px;
 }
 
-body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
+body::-webkit-scrollbar-thumb:hover { background: hsl(125, 100%, 50%); }
 
 
 
@@ -2168,7 +2167,7 @@ footer {
 
   .header-social-container .social-link {
     padding: 5px;
-    background: hsl(0, 0%, 95%);
+    background: hsl(120, 100%, 50%);
     border-radius: var(--border-radius-sm);
     color: var(--sonic-silver);
     transition: var(--transition-timing);
@@ -2255,7 +2254,7 @@ footer {
     gap: 30px;
     padding: 30px;
     border: 1px solid var(--cultured);
-    box-shadow: 0 3px 5px hsla(0, 0%, 0%, 0.1);
+    box-shadow: 0 3px 5px hwb(125 0% 0% / 0.1);
     border-radius: var(--border-radius-md);
     transform: translateY(50px);
     opacity: 0;
@@ -2309,7 +2308,7 @@ footer {
     padding: 20px 0;
     border-radius: var(--border-radius-md);
     border: 1px solid var(--cultured);
-    box-shadow: 0 3px 5px hsla(0, 0%, 0%, 0.1);
+    box-shadow: 0 3px 5px hsla(145, 100%, 51%, 0.1);
     transform: translateY(50px);
     opacity: 0;
     visibility: hidden;
